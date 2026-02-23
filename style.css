@@ -28,6 +28,8 @@ pre {
     overflow: auto;
     max-width: 600px;
     max-height: 90vh;
+    line-height: 1.4;
+    padding: 20px;
 }
 
 canvas {
