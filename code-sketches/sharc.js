@@ -1,6 +1,6 @@
 function setup() {
-    createCanvas(400, 400);
-
+    let cnv = createCanvas(400, 400);
+    cnv.parent('sketch-holder');
 }
 
 function draw() {
@@ -47,10 +47,10 @@ function draw() {
 
 
     function drawEye(dir) {
-        if (dir = 'left') {
+        if (dir === 'left') {
             x = 4;
         }
-        if (dir = 'right') {
+        if (dir === 'right') {
             x = -4;
         }
         fill(150, 75, 0);

@@ -48,10 +48,10 @@ const sketchSharc = function (p) {
     }
 
     function drawEye(dir) {
-        if (dir = 'left') {
+        if (dir === 'left') {
             x = 4;
         }
-        if (dir = 'right') {
+        if (dir === 'right') {
             x = -4;
         }
         p.fill(150, 75, 0);
@@ -61,12 +61,6 @@ const sketchSharc = function (p) {
         p.fill(255, 255, 255);
         p.ellipse(0, x, 10);
     }
-
-
-
-
 };
-
-
 
 new p5(sketchSharc, "sketchSharc");
